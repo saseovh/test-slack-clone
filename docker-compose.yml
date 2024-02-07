@@ -1,12 +1,12 @@
 services:
   slackfrontend:
-    image: saseovh/slackclone-fe:1
+    image: saseovh/slackclone-fe:latest
     ports:
       - "3000:3000"    
     depends_on:
       - db
   nodebackend: 
-    image: saseovh/slackclone-be:1
+    image: saseovh/slackclone-be:latest
     ports: 
       - "9000:9000"    #external:internal 
     depends_on:
