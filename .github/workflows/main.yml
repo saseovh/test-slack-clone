@@ -1,8 +1,7 @@
-name: pipeline
+name: Publish Docker images to Docker Hub by Kone1010
 on:
   push:
-    branches:
-      - "deploy"
+    branches: ['main']
 
 jobs:
   deploy:
